@@ -1,0 +1,30 @@
+# Git Ignore for AI Motion Graphics Comparison
+
+# Environment files
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Generated assets (if any)
+*.mp4
+*.mov
+*.gif
+!examples/*.md
+
+# Test files
+test/
+mocks/
